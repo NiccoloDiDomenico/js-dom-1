@@ -9,24 +9,39 @@ img {
     max-width: 100%;
 }
 
-
 /* LAYOUT */
 .container {
     width: 80%;
     margin: auto;
-    height: 80vh;
+    padding: 1rem;
+    
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* height: 80vh; */
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 /* STYLE */
 .title {
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem 0 4rem;
 }
 
 .container p {
     padding: 1rem;
     font-size: 1.5rem;
+}
 
+#lamp-btn {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
 }
